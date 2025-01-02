@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  background-color: #FFF8F3;
+  padding-top: 51px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+header nav .developer {
+  position: absolute;
+  left: -170px;
+  top: 0;
+}
+header nav h2 {
+  font-size: 45px;
+  font-weight: 800;
+  color: #181818;
+  font-family: "Open Sans", serif;
+}
+header nav h2 span {
+  color: #FD6E0A;
+}
+header nav ul {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+header nav ul li a {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Open Sans", serif;
+}
+header nav button {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Open Sans", serif;
+  padding: 18px 36px;
+  border: none;
+  background-color: #FD6E0A;
+  border-radius: 5px;
+}
+header .header-text {
+  display: flex;
+}
+header .header-text .header-left h2 {
+  font-size: 45px;
+  font-weight: 600;
+  font-family: "Open Sans", serif;
+  color: #474747;
+  padding-top: 185px;
+}
+header .header-text .header-left h1 {
+  font-size: 85px;
+  font-weight: 700;
+  color: #181818;
+  font-family: "Open Sans", serif;
+  text-wrap: nowrap;
+  width: 458px;
+  margin-top: 5px;
+}
+header .header-text .header-left p {
+  width: 585px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: "Open Sans", serif;
+  margin-top: 20px;
+}
+header .header-text .header-left .down-btn {
+  padding: 18px 17px 18px 50px;
+  background-color: #FD6E0A;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Open Sans", serif;
+  margin-top: 30px;
+}
+header .header-text .header-left .contact-btn {
+  margin-top: 30px;
+  padding: 18px 17px 18px 50px;
+  margin-left: 20px;
+  background-color: #FD6E0A;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: 0.4s;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Open Sans", serif;
+}
+header .header-text .header-left .contact-btn:hover {
+  background-color: transparent;
+  border: 1px solid #FD6E0A;
+  color: #FD6E0A;
+}
+header .header-right {
+  position: relative;
+}
+header .header-right .shape {
+  margin-left: 20px;
+  margin-top: 200px;
+}
+header .header-right .man {
+  position: absolute;
+  right: 50px;
+  bottom: 4px;
+}/*# sourceMappingURL=style.css.map */

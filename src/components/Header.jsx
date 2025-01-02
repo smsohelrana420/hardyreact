@@ -24,8 +24,8 @@ const Header = () => {
                       <button className='contact-btn'>Contact</button>
                       </div>
                       <div className='header-right'>
-                            <img className='shape' src="../assets/shape.png" alt="" />
-                            <img className='man' src="../assets/man.png" alt="" />
+                            <img className='shape' src="/src/assets/shape.png" alt="" />
+                            <img className='man' src="/src/assets/man.png" alt="" />
                       </div>
 
                 </div>
